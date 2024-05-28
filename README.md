@@ -1,7 +1,22 @@
-# RShiny
-This reposetory contains
-* A web-based platform tailored for data analysis empowers users to upload their datasets, create visual representations across diverse dimensions, explore data distributions, and compare a wide array of machine learning algorithms.
-* A randomly generated datasheet with the help of random.org
+# RShiny Εφαρμογή ανάλυσης δεδομένων
+Εδω θα βρείτε:
+* Μια διαδικτυακή πλατφόρμα για ανάλυση δεδομένων, που δημιουργεί οπτικές αναπαραστάσεις για τα δεδομένα που εισάγουν οι χρήστες και επιτρέπει την σύγκριση μεταξύ αλγορίθμων μηχανικής μάθησης.
+* Ένα ενδεικτικό dataset για δοκιμή.
+* Οδηγίες χρήσης της εφαρμογής
+* Γενικές πληροφορίες
 
 
-# Instruction on how to run
+# Οδηγίες χρήσης εφαρμογής
+*Πριν από όλα, είναι πολύ σημαντικό να είναι ενεργοποιημένο το virtualization από το bios του υπολογιστή σας. Μπορείτε να βρείτε σχετικές οδηγίες στο internet με βάση τον κατασκευαστή της μητρικής κάρτας και του επεξεργαστή σας.*
+1) Η εφαρμογή χρειάζεται το [Docker](https://www.docker.com/). Άρα είναι απαραίτητη η εγκατάσταση και δημιουργία λογαριασμού.
+2) Κατεβάστε το repo για να υπάρχει στον υπολογιστή σας, και αποθηκεύστε το path.
+3) Μέσω του terminal, κάντε cd στον φάκελο που αποθηκέυησατε στο προηγούμενο βήμα.
+4) Τρέξτε την εντολή "docker build -t my-shiny-app ."
+5) Έπειτά την εντολή "docker run -p 3838:3838 my-shiny-app"
+6) Και τέλος μπαίνουμε στο link http://localhost:3838/]
+
+
+# Μέλη ομάδας
+Γρηγόρης Μαρούλης, inf2021133
+Γιώργος Βέλλας, inf2021028
+Πέτρος Περαντωνάκης, inf2021182
